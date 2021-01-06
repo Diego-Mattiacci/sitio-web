@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+}
+
+.logo{
+    margin: 20px;
+}
+
+header{
+    background-color:  #EAC926
+}
+
+.navbar{
+    display: none;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+section.banner img{
+    width: 100%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.titulares{
+    font-size: 24px;
+}
+
+.precios{
+    font-size: 18px;
+}
+
+.descu-descrp{
+    font-size: 16px;
+}
+
+main section div i,
+.discount{
+    color: #39b54a;
+}
+
+main section div i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+main section div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 15px;
+}
+
+footer{
+    text-align: center;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.icon-ham{
+    font-size: 48;
+    color: white;;
+    background-color:#03264C;
+    padding: 10px;
+    border-radius: 5px; 
+        
+}
+
+.icon-footer{
+    font-size: 35px;
+    color: #1259c3;;
+    background-color:white;
+    margin-bottom: 10px;
+    
+    
+}
+
+p, footer{
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+h4, footer{
+    margin: 0;
+}
+
+.center{
+    text-align: center;
+}
